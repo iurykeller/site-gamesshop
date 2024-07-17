@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body, input textarea{
+    font-family: "Roboto", sans-serif;
+}
+header h1, section h2{
+    font-weight: normal;
+  }
+
+
+header, section h2{
+        font-family: "Bungee", sans-serif;
+        color: #182c61;
+        
+      }
+
+      .container li a{
+        font-size: 14px;
+      }
+
+    
+header{
+    padding: 16px;
+    background-color: #182c61;
+    color: white;
+}
+
+header nav li{
+    display:inline;
+    margin-left: 16px;
+    font-size: 24px;
+    
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brandslist img{
+height: 24px;
+margin-right: 10px;
+}
+
+.brandslist li {
+    display: flex;
+    display: inline;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px;
+    color: #182c61;
+}
+
+section h2{
+   margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 16px;
+}
+.container .storefont {
+    margin-right: 32px;
+}
+
+.social-links li img{
+    height: 34px;
+    margin-right: 15px;
+}
+.social-links li{
+    display: inline;
+}
+
+.rodape .container{
+    display: block;
+
+}
+#container-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 9px;
+    padding: 5px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+#acompanhe{
+    display: block;
+    
+    
+}
+
+#container-methods h3{
+    font-family: "Bungee", sans-serif;
+    color: #182c61;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+form button{
+    background-color: #182c61;
+    color: white;
+    height: 40px;
+    font-family: "Bungee", sans-serif;
+    border: none;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: #5679db;
+}
+
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+
+footer{
+    background-color: #182c61;
+    color: white;
+    padding: 16px;
+    
+}
+
+footer p {
+    justify-content: center;
+    display: flex;
+}
